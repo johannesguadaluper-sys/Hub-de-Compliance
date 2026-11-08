@@ -1,0 +1,4556 @@
+{
+  "vault": {
+    "total_inflow_usd": 10929492,
+    "accumulated_hub_fee_usd": 106946.63,
+    "net_dispersed_usd": 10459261.13,
+    "net_refunded_usd": 363284.24,
+    "spei_reserve_mxn": 7286455,
+    "crypto_vault_usdt": 9555380.970000006,
+    "crypto_vault_btc": 8.45,
+    "crypto_vault_eth": 64.2,
+    "last_updated": "2026-10-31T01:07:48.307Z",
+    "automated_ingestion_active": true,
+    "transactions_count": 100,
+    "spei_dispersals_count": 14
+  },
+  "transactions": [
+    {
+      "transaction_id": "23b98f6e-c27e-4908-bd60-ec145be7fcea",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 76454,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 412.85,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-31T01:07:48.305Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.18
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "351b56c4-db53-47ad-825f-c62711c437fe",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 48011,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 259.26,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T17:00:49.343Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.96
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "e4de68f7-acf3-431d-a079-c85be71b4146",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 1956,
+        "applied_rate_percentage": 2.2301,
+        "hub_fee_usd": 43.62,
+        "net_refund_amount_usd": 1912.38,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T17:00:39.343Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.65
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 43.62,
+          "max_cap_usd": 97.8,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "ef8f13f9-87c4-496e-8ef7-4fe8e72d9f78",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 70828,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 382.47,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T17:00:29.342Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.42
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "cc9777e5-831f-4552-9bd1-f1da14f35ad6",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 54534,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 294.48,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T17:00:19.342Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.09
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "d075d163-64a1-4d1e-b981-bd46f39a2ee2",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 8160,
+        "applied_rate_percentage": 2.0551,
+        "hub_fee_usd": 167.7,
+        "net_refund_amount_usd": 7992.3,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T17:00:09.341Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.72
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 167.7,
+          "max_cap_usd": 408,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "948b082a-ffb6-4620-93c0-1609888ca22f",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 5205,
+        "applied_rate_percentage": 2.0865,
+        "hub_fee_usd": 108.6,
+        "net_refund_amount_usd": 5096.4,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:59:59.340Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.74
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 108.6,
+          "max_cap_usd": 260.25,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "cc8eb269-cfbd-42e7-8d80-9c34a2799eb5",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 35101,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 189.55,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:59:49.339Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.7
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "4192d710-5965-41b6-a8ae-7da4babb3847",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 5363,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 28.96,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:59:39.338Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.79
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "83410e27-bc3b-49cc-9633-be74203d16b5",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 4106,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 22.17,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:59:29.337Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.37
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "e3db827b-29c7-469d-9134-0d495a0d1ee2",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 1827,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 9.87,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:59:19.336Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.61
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "0635ffbf-d925-4f53-9471-9a66b9424c18",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 79599,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 429.83,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:59:09.335Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.59
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "c8d3bd59-cb7b-4f11-9a00-33ff8c6df759",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 6875,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 37.13,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:58:59.335Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.29
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "c733315f-d911-4308-ad36-9afdc04e3fd3",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 5851,
+        "applied_rate_percentage": 2.0769,
+        "hub_fee_usd": 121.52,
+        "net_refund_amount_usd": 5729.48,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:58:49.333Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.95
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 121.52,
+          "max_cap_usd": 292.55,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "8936c4ea-fc8d-4679-bedf-1eb378e078be",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 2154,
+        "applied_rate_percentage": 2.2089,
+        "hub_fee_usd": 47.58,
+        "net_refund_amount_usd": 2106.42,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:58:39.331Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.72
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 47.58,
+          "max_cap_usd": 107.7,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "456fc3dd-301b-4d38-8664-75fde17b1a58",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 34196,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 184.66,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:58:29.330Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.68
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "7a438c80-098d-41f7-857b-320e19b1465f",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 6464,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 34.91,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:58:19.329Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.15
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "ad352d0a-1ae1-447d-aeb4-6ad04fbc5c58",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 4767,
+        "applied_rate_percentage": 3.888,
+        "hub_fee_usd": 185.34,
+        "net_refund_amount_usd": 4581.66,
+        "estimated_gas_deduction_usd": 18.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:58:09.328Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.59
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 1.5,
+          "gas_usd": 18.5,
+          "raw_penalty_usd": 185.34,
+          "max_cap_usd": 238.35,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "0e0a66e8-38d7-4c95-85ca-a7564f270061",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 29799,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 160.91,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:57:59.327Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.6
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "c90ff120-2c29-4021-b914-aff025bcfc77",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 87241,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 471.1,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:57:49.326Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.74
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "f0c28b46-3d1f-4cf8-8540-87628d3487b6",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 65347,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 352.87,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:57:39.325Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.31
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "ec03b8b1-8eb6-46b4-b242-161849642f4e",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 64726,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 349.52,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:57:29.324Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.29
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "1d75f996-886e-44ad-96c0-f0489987346c",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 6369,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 34.39,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:57:19.323Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.12
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "55359f13-67ea-42b7-b0fb-8d0a7161166e",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 68022,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 367.32,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:57:09.322Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.36
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "ca94ea48-c2dc-4fb5-8e30-8e657c15f5a4",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 6762,
+        "applied_rate_percentage": 2.0665,
+        "hub_fee_usd": 139.74,
+        "net_refund_amount_usd": 6622.26,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:56:59.322Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.25
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 139.74,
+          "max_cap_usd": 338.1,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "54a137d2-88cb-489b-a6cf-f2102103c580",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 4990,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 26.95,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:56:49.320Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.66
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "23d5401a-9700-44f4-93d9-388189b7f037",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 5955,
+        "applied_rate_percentage": 3.8107,
+        "hub_fee_usd": 226.93,
+        "net_refund_amount_usd": 5728.07,
+        "estimated_gas_deduction_usd": 18.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:56:39.319Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.99
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 1.5,
+          "gas_usd": 18.5,
+          "raw_penalty_usd": 226.93,
+          "max_cap_usd": 297.75,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "ce60b4f8-28a0-4b12-8fce-24f313856a9f",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 27862,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 150.45,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:56:29.319Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.56
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "7d070a18-5c03-40a9-96f3-55599f473c4d",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 26110,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 140.99,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:56:19.318Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.52
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "e61cda2b-6bc4-4aad-89b0-0b576187167b",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 37535,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 202.69,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:56:09.316Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.75
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "f7bc1cc8-ab25-4c37-9668-11f1cfe4cf42",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 48347,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 261.07,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:55:59.315Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.97
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "d29ad8be-f8a1-46eb-a41a-ec3b55ee5af2",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 4547,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 24.55,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:55:49.314Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.52
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "6eb5c6b2-9ddc-4601-90f3-5b994619ba10",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 59990,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 323.95,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:55:39.314Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.2
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "af160bc1-5115-4a09-b42e-a23b639399e5",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 73412,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 396.42,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:55:29.314Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.47
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "2ee41370-d497-4430-8f68-9a29f0ed05f3",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 3362,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 18.15,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:55:19.313Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.12
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "cfcdb4e5-0afa-456d-aebb-7e59b980ba25",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 57073,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 308.19,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:55:09.311Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.14
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "652da6ca-8427-46dd-9a0f-c8a54013db18",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 2410,
+        "applied_rate_percentage": 4.2676,
+        "hub_fee_usd": 102.85,
+        "net_refund_amount_usd": 2307.15,
+        "estimated_gas_deduction_usd": 18.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:54:59.310Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.8
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 1.5,
+          "gas_usd": 18.5,
+          "raw_penalty_usd": 102.85,
+          "max_cap_usd": 120.5,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "249f7e90-141c-4b3c-a98e-ac04bfcd47ab",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 1838,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 9.93,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:54:49.308Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.61
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "2a2c5dda-f291-4071-813a-7060f9d1b24d",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 2704,
+        "applied_rate_percentage": 2.1664,
+        "hub_fee_usd": 58.58,
+        "net_refund_amount_usd": 2645.42,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:54:39.307Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.9
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 58.58,
+          "max_cap_usd": 135.2,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "f1060934-0959-4e86-8785-f4149535ad0d",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 6760,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 36.5,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:54:29.306Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.25
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "2c5d350e-7220-4726-b8c7-1278119a921d",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 61794,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 333.69,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:54:19.305Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.24
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "02aad9fc-dd56-4d4b-9157-ea9e73cea9f2",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 4610,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 24.89,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:54:09.304Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.54
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "78dd49da-27ab-44a8-aaae-c3c482a9a7ed",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 4511,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 24.36,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:53:59.303Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.5
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "4bbd15eb-0450-4ed7-a776-23c856ac79ba",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 85514,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 461.78,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:53:49.302Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.71
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "5fb0164f-759c-4b45-af2c-889f29e3fdfa",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 1561,
+        "applied_rate_percentage": 2.2883,
+        "hub_fee_usd": 35.72,
+        "net_refund_amount_usd": 1525.28,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:53:39.301Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.52
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 35.72,
+          "max_cap_usd": 78.05,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "15d8d818-006c-44e8-9694-eda4a0348c75",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 3876,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 20.93,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:53:29.300Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.29
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "16e1c180-08cc-4b87-9737-0ab8e86211b4",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 61991,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 334.75,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:53:19.300Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.24
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "9b45c017-b326-4626-bb16-201260fedf93",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 1717,
+        "applied_rate_percentage": 2.2621,
+        "hub_fee_usd": 38.84,
+        "net_refund_amount_usd": 1678.16,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:53:09.298Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.57
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 38.84,
+          "max_cap_usd": 85.85,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "091a384e-ca59-4140-91de-5a8a73671973",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 3769,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 20.35,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:52:59.297Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.26
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "80a58ebf-1bfb-4928-aa81-5b2fca57c20d",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 87981,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 475.1,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:52:49.297Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.76
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "cefe2353-5a9a-424b-b525-f0fbffd73165",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 29648,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 160.1,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:52:39.297Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.59
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "9d5d4504-a48e-4f4c-95c5-5b78540740ac",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 75699,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 408.77,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:52:29.296Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.51
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "6fb60285-9eaf-4dce-8bd1-f39139008a5a",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 47826,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 258.26,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:52:19.295Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.96
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "1fd9dbe4-3dbf-4f10-933a-3de8477ccd88",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 7951,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 42.94,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:52:09.294Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.65
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "7f7394d3-052a-4838-8d8e-392068340b54",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 5231,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 28.25,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:51:59.293Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.74
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "68190a5e-8404-4115-b5a0-8741fb03b43f",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 90836,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 490.51,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:51:49.293Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.82
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "f9ec8c6e-f23d-4240-89d6-582e81a54efa",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 26339,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 142.23,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:51:39.292Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.53
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "b61e582b-5551-4980-9890-026d7d3abfd2",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 5929,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 32.02,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:51:29.291Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.98
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "69266f88-7fef-4db3-9a9e-55c4ce24d37d",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 63842,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 344.75,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:51:19.291Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.28
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "7920bb78-c908-44ed-8f51-a88272b04158",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 4559,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 24.62,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:51:09.290Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.52
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "3aebdfc9-9891-4ad5-8e40-e5c915056e52",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 92084,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 497.25,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:50:59.290Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.84
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "45e7779e-4a46-47bb-9295-7b09ff29581d",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 26829,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 144.88,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:50:49.289Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.54
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "b1786279-b4d7-445b-a616-7352dd9a3d16",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 3245,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 17.52,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:50:39.287Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.08
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "f7715f34-4aa4-4444-bfdf-3a926d2467f6",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 8126,
+        "applied_rate_percentage": 2.0554,
+        "hub_fee_usd": 167.02,
+        "net_refund_amount_usd": 7958.98,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:50:29.286Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.71
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 167.02,
+          "max_cap_usd": 406.3,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "983a8b81-8442-4b2d-ab5d-8d30bbc4a029",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 62511,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 337.56,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:50:19.285Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.25
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "6e6a03fe-6f51-4f04-b782-c65aa8057d09",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 5344,
+        "applied_rate_percentage": 3.8462,
+        "hub_fee_usd": 205.54,
+        "net_refund_amount_usd": 5138.46,
+        "estimated_gas_deduction_usd": 18.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:50:09.284Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.78
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 1.5,
+          "gas_usd": 18.5,
+          "raw_penalty_usd": 205.54,
+          "max_cap_usd": 267.2,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "1ca2c6b6-af33-4f9c-a8b7-92367f534d94",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 43581,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 235.34,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:49:59.282Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.87
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "bfb9a9df-6c64-4a2a-97d7-652c83a883e8",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 3544,
+        "applied_rate_percentage": 4.022,
+        "hub_fee_usd": 142.54,
+        "net_refund_amount_usd": 3401.46,
+        "estimated_gas_deduction_usd": 18.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:49:49.281Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.18
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 1.5,
+          "gas_usd": 18.5,
+          "raw_penalty_usd": 142.54,
+          "max_cap_usd": 177.2,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "2e705b34-e538-448f-9c68-5d34d01f8ea4",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 67451,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 364.24,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:49:39.280Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.35
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "ddbfe6fc-517d-4d2a-85d6-02f1246580ea",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 2175,
+        "applied_rate_percentage": 4.3508,
+        "hub_fee_usd": 94.63,
+        "net_refund_amount_usd": 2080.37,
+        "estimated_gas_deduction_usd": 18.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:49:29.279Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.72
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 1.5,
+          "gas_usd": 18.5,
+          "raw_penalty_usd": 94.63,
+          "max_cap_usd": 108.75,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "33de51e2-f18b-4cd8-8430-a2b89668cb60",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 28791,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 155.47,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:49:19.278Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.58
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "a3563c6e-66f2-4bb0-8d74-a4f25ef258e7",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 79009,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 426.65,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:49:09.277Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.58
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "67a0e115-1bcd-4154-95e8-bc529f79b26a",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 93634,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 505.62,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:48:59.276Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.87
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "8d53ef43-0a6f-4831-8a60-ff75ab594a15",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 5682,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 30.68,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:48:49.276Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.89
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "1b74384a-0fd2-4de9-ac0f-6abc6b2d04da",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 55857,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 301.63,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:48:39.275Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.12
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "1ae1bef4-a388-4ec9-8d42-a15ea360df5e",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 5777,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 31.2,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:48:29.273Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.93
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "87cf33ff-238d-4c4e-b216-b7fe6f9501ee",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 4871,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 26.3,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:48:19.272Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.62
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "307d84a5-011b-48cc-b183-0d1b00d305cd",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 6288,
+        "applied_rate_percentage": 2.0716,
+        "hub_fee_usd": 130.26,
+        "net_refund_amount_usd": 6157.74,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:48:09.271Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.1
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 130.26,
+          "max_cap_usd": 314.4,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "215d6054-5282-45db-baf5-e80bc3ce5f38",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 92178,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 497.76,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:47:59.271Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.84
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "37e9cf92-818f-4057-b4db-e76c065da3d4",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 75035,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 405.19,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:47:49.270Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.5
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "50408b21-e097-4409-b312-fdce18147541",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 62608,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 338.08,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:47:39.269Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.25
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "c4780dc5-3b99-435c-b904-6869701213b9",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 6826,
+        "applied_rate_percentage": 3.771,
+        "hub_fee_usd": 257.41,
+        "net_refund_amount_usd": 6568.59,
+        "estimated_gas_deduction_usd": 18.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:47:29.268Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.28
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 1.5,
+          "gas_usd": 18.5,
+          "raw_penalty_usd": 257.41,
+          "max_cap_usd": 341.3,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "e01390c9-0384-4077-a191-b53597893407",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 2042,
+        "applied_rate_percentage": 4.406,
+        "hub_fee_usd": 89.97,
+        "net_refund_amount_usd": 1952.03,
+        "estimated_gas_deduction_usd": 18.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:47:19.268Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.68
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 1.5,
+          "gas_usd": 18.5,
+          "raw_penalty_usd": 89.97,
+          "max_cap_usd": 102.1,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "98f19466-2c70-47b8-9887-a8a3ac6ff24d",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 4301,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 23.23,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:47:09.267Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.43
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "a88e5f61-fb2d-45bc-b1bf-83c8ddf5108a",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 6443,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 34.79,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:46:59.266Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.15
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "0c4f6a8d-ab8e-4369-97dd-a2f2b8366046",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 39623,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 213.96,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:46:49.265Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.79
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "c435ec0e-71fa-4385-a0b8-1c2097fc964f",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 39905,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 215.49,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:46:39.265Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.8
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "a0e25135-bc2f-46f4-b565-a7707945d1b9",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 41809,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 225.77,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:46:29.264Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.84
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "89fcdfeb-0e45-4162-88cb-3241663e779d",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 7410,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 40.01,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:46:19.263Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.47
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "2d8cc50d-5e8f-4ae1-bb0e-39f9e507aa22",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 5450,
+        "applied_rate_percentage": 3.8394,
+        "hub_fee_usd": 209.25,
+        "net_refund_amount_usd": 5240.75,
+        "estimated_gas_deduction_usd": 18.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:46:09.262Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.82
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 1.5,
+          "gas_usd": 18.5,
+          "raw_penalty_usd": 209.25,
+          "max_cap_usd": 272.5,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "7897113f-1f4a-4f6e-9135-36b17e64cfde",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 4071,
+        "applied_rate_percentage": 2.1105,
+        "hub_fee_usd": 85.92,
+        "net_refund_amount_usd": 3985.08,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:45:59.261Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.36
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 85.92,
+          "max_cap_usd": 203.55,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "50e53a60-31b5-4af8-900d-4cfd577235b3",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 8187,
+        "applied_rate_percentage": 2.055,
+        "hub_fee_usd": 168.24,
+        "net_refund_amount_usd": 8018.76,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:45:49.259Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.73
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 168.24,
+          "max_cap_usd": 409.35,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "02f25158-d400-423c-9b1e-c7f8b93d1d8e",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 55480,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 299.59,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:45:39.259Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.11
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "0160460c-77bf-4e0a-87e1-a0208566738c",
+      "action": "REFUND",
+      "risk_assessment": {
+        "score": 45,
+        "triggers_activated": [
+          "SMURFING"
+        ],
+        "ciphertrace_alert_level": "MEDIUM"
+      },
+      "financials": {
+        "inbound_amount_usd": 7593,
+        "applied_rate_percentage": 2.0593,
+        "hub_fee_usd": 156.36,
+        "net_refund_amount_usd": 7436.64,
+        "estimated_gas_deduction_usd": 4.5
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": true,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:45:29.259Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": true,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.53
+        },
+        "pricing_breakdown": {
+          "base_rate": 2,
+          "risk_premium": 0,
+          "volatility_buffer": 0,
+          "gas_usd": 4.5,
+          "raw_penalty_usd": 156.36,
+          "max_cap_usd": 379.65,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "e807e230-658f-4764-864a-a24762d124c1",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 1636,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 8.83,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:45:19.258Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.55
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "ef93bcb6-ec0b-4695-b23a-3c7811102b61",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 104607,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 564.88,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:45:09.257Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.09
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "2a1e1c21-dc73-4e19-ab39-cb9e491b3615",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 4575,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 24.7,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:44:59.256Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.52
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "bf46d03d-6679-47c3-8cbe-713635713d0a",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 43752,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 236.26,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:44:49.256Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 0.88
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "a5a4c8d1-eb72-43a7-9b08-0792455c740b",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 7192,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 38.84,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:44:39.255Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "CeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 2.4
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    },
+    {
+      "transaction_id": "b410646b-dda1-4f21-91c4-e9954c34c7b4",
+      "action": "APPROVE",
+      "risk_assessment": {
+        "score": 4,
+        "triggers_activated": [],
+        "ciphertrace_alert_level": "LOW"
+      },
+      "financials": {
+        "inbound_amount_usd": 88543,
+        "applied_rate_percentage": 0.54,
+        "hub_fee_usd": 478.13,
+        "net_refund_amount_usd": 0,
+        "estimated_gas_deduction_usd": 0
+      },
+      "compliance_action": {
+        "generate_pasive_sar_report": false,
+        "blacklist_origin_wallet": false
+      },
+      "metadata": {
+        "evaluated_at": "2026-10-17T16:44:29.254Z",
+        "dasp_license": "CNAD-DASP-SV-2024-8891",
+        "jurisdiction": "El Salvador (CNAD Regulatory Sandbox)",
+        "rail": "DeFi",
+        "rule_breakdown": {
+          "smurfing_detected": false,
+          "dormant_asset_detected": false,
+          "stagnant_corporate_detected": false,
+          "volume_spike_ratio": 1.77
+        },
+        "pricing_breakdown": {
+          "base_rate": 0.5,
+          "risk_premium": 0.04,
+          "volatility_buffer": 0,
+          "gas_usd": 0,
+          "raw_penalty_usd": 0,
+          "max_cap_usd": 0,
+          "is_capped": false
+        }
+      }
+    }
+  ],
+  "spei_orders": [
+    {
+      "id": "spei-5ef295b9",
+      "clave_rastreo": "DASP261031DFQHNQ709232",
+      "beneficiario": {
+        "nombre": "NU MEXICO FINANCIERA SA DE CV",
+        "tipo_cuenta": "CLABE",
+        "cuenta": "638180000492817294",
+        "clabe": "638180000492817294",
+        "rfc_curp": "FCO190822NU1",
+        "banco": "NU MÉXICO FINANCIERA (SOFIPO)",
+        "banco_codigo": "638"
+      },
+      "monto_mxn": 1509417,
+      "monto_usd": 76041.15,
+      "concepto": "LIQ AML TX-23b98f6e",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "638",
+      "status": "SUBMITTED",
+      "created_at": "2026-10-31T01:07:48.305Z",
+      "submitted_at": "2026-10-31T01:07:48.305Z",
+      "idempotency_key": "auto-spei-23b98f6e-c27e-4908-bd60-ec145be7fcea-1793408868305",
+      "retry_count": 0
+    },
+    {
+      "id": "spei-fba2f239",
+      "clave_rastreo": "DASP20261017DIMO01",
+      "beneficiario": {
+        "nombre": "CARMEN SILVA",
+        "tipo_cuenta": "DIMO",
+        "cuenta": "5512345678",
+        "clabe": "5512345678",
+        "banco": "BANORTE",
+        "banco_codigo": "072"
+      },
+      "monto_mxn": 3200,
+      "monto_usd": 161.21,
+      "concepto": "TEST DISPERSION DIMO MOVIL",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "072",
+      "status": "SUBMITTED",
+      "created_at": "2026-10-17T18:37:32.658Z",
+      "submitted_at": "2026-10-17T18:37:32.658Z",
+      "idempotency_key": "DASP20261017DIMO01",
+      "retry_count": 0
+    },
+    {
+      "id": "spei-a1a8e310",
+      "clave_rastreo": "DASP20261017PAN01",
+      "beneficiario": {
+        "nombre": "ROBERTO GOMEZ",
+        "tipo_cuenta": "PAN",
+        "cuenta": "4152313456789012",
+        "clabe": "4152313456789012",
+        "banco": "BANAMEX",
+        "banco_codigo": "002",
+        "marca_tarjeta": "VISA"
+      },
+      "monto_mxn": 5000,
+      "monto_usd": 251.89,
+      "concepto": "TEST DISPERSION TARJETA PAN",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "002",
+      "status": "SUBMITTED",
+      "created_at": "2026-10-17T18:37:28.895Z",
+      "submitted_at": "2026-10-17T18:37:28.895Z",
+      "idempotency_key": "DASP20261017PAN01",
+      "retry_count": 0
+    },
+    {
+      "id": "spei-09f7af52",
+      "clave_rastreo": "DASP261017PANMASK01",
+      "beneficiario": {
+        "nombre": "CARLOS MENDOZA",
+        "tipo_cuenta": "PAN",
+        "cuenta": "4152313456789012",
+        "clabe": "4152313456789012",
+        "banco": "BANAMEX",
+        "banco_codigo": "002",
+        "marca_tarjeta": "VISA"
+      },
+      "monto_mxn": 12000,
+      "monto_usd": 604.53,
+      "concepto": "DISPERSION PAN MASKED TEST",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "002",
+      "status": "SUBMITTED",
+      "created_at": "2026-10-17T18:33:47.412Z",
+      "submitted_at": "2026-10-17T18:33:47.412Z",
+      "idempotency_key": "idem-pan-mask-01",
+      "retry_count": 0
+    },
+    {
+      "id": "spei-cba8e7eb",
+      "clave_rastreo": "DASP261017DIMO00456",
+      "beneficiario": {
+        "nombre": "RAUL SANDOVAL",
+        "tipo_cuenta": "DIMO",
+        "cuenta": "5512345678",
+        "clabe": "5512345678",
+        "banco": "BANORTE",
+        "banco_codigo": "072"
+      },
+      "monto_mxn": 4500,
+      "monto_usd": 226.7,
+      "concepto": "PAGO MOVIL DIMO 10D",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "072",
+      "status": "SUBMITTED",
+      "created_at": "2026-10-17T17:01:06.651Z",
+      "submitted_at": "2026-10-17T17:01:06.651Z",
+      "idempotency_key": "idem-dimo-01",
+      "retry_count": 0
+    },
+    {
+      "id": "spei-9a0049b4",
+      "clave_rastreo": "DASP261017PAN00123",
+      "beneficiario": {
+        "nombre": "FERNANDO ALVAREZ",
+        "tipo_cuenta": "PAN",
+        "cuenta": "4152313456789012",
+        "clabe": "4152313456789012",
+        "banco": "BANAMEX",
+        "banco_codigo": "002",
+        "marca_tarjeta": "VISA"
+      },
+      "monto_mxn": 8500,
+      "monto_usd": 428.21,
+      "concepto": "DISPERSION TARJETA PAN 16D",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "002",
+      "status": "SUBMITTED",
+      "created_at": "2026-10-17T17:00:56.967Z",
+      "submitted_at": "2026-10-17T17:00:56.967Z",
+      "idempotency_key": "idem-pan-01",
+      "retry_count": 0
+    },
+    {
+      "id": "spei-1fd39f97",
+      "clave_rastreo": "DASP2610176G2820865313",
+      "beneficiario": {
+        "nombre": "JOHANNES GUADALUPE RUIZ NAVARRO",
+        "clabe": "137020105511564650",
+        "rfc_curp": "RUNJ840121L25",
+        "banco": "BANCOPPEL",
+        "banco_codigo": "137"
+      },
+      "monto_mxn": 6601,
+      "monto_usd": 332.54,
+      "concepto": "LIQUIDACION DISPERSION DASP",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "137",
+      "status": "LIQUIDATED",
+      "created_at": "2026-10-17T16:45:48.124Z",
+      "submitted_at": "2026-10-17T16:45:48.124Z",
+      "idempotency_key": "idem-e61s1lgn",
+      "retry_count": 0,
+      "liquidated_at": "2026-10-17T16:45:51.336Z",
+      "cep_url": "https://www.banxico.org.mx/cep/consulta?folio=5638100"
+    },
+    {
+      "id": "spei-256c4f67",
+      "clave_rastreo": "DASP261017JDZKEV157305",
+      "beneficiario": {
+        "nombre": "JOHANNES GUADALUPE RUIZ NAVARRO",
+        "clabe": "137020105511564650",
+        "rfc_curp": "RUNJ840121L25",
+        "banco": "BANCOPPEL",
+        "banco_codigo": "137"
+      },
+      "monto_mxn": 6601,
+      "monto_usd": 332.54,
+      "concepto": "LIQUIDACION DISPERSION DASP",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "137",
+      "status": "LIQUIDATED",
+      "created_at": "2026-10-17T16:44:34.043Z",
+      "submitted_at": "2026-10-17T16:44:34.043Z",
+      "idempotency_key": "idem-6n3fpl5m",
+      "retry_count": 0,
+      "liquidated_at": "2026-10-17T16:44:37.079Z",
+      "cep_url": "https://www.banxico.org.mx/cep/consulta?folio=7224038"
+    },
+    {
+      "id": "spei-837fa883",
+      "clave_rastreo": "DASP261017OSIJN5220449",
+      "beneficiario": {
+        "nombre": "JOHANNES GUADALUPE RUIZ NAVARRO",
+        "clabe": "137020105511564650",
+        "rfc_curp": "RUNJ840121L25",
+        "banco": "BANCOPPEL",
+        "banco_codigo": "137"
+      },
+      "monto_mxn": 6601,
+      "monto_usd": 332.54,
+      "concepto": "LIQUIDACION DISPERSION DASP",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "137",
+      "status": "REJECTED",
+      "created_at": "2026-10-17T16:43:30.141Z",
+      "submitted_at": "2026-10-17T16:43:30.141Z",
+      "idempotency_key": "idem-ivu9ri5x",
+      "retry_count": 0,
+      "rejected_at": "2026-10-17T16:44:00.535Z",
+      "motivo_rechazo": "CUENTA BENEFICIARIO BLOQUEADA (DEVOLUCIÓN 05)"
+    },
+    {
+      "id": "spei-d48249f2",
+      "clave_rastreo": "DASP261017IC7Q2S248517",
+      "beneficiario": {
+        "nombre": "JOHANNES GUADALUPE RUIZ NAVARRO",
+        "clabe": "137020105511564650",
+        "rfc_curp": "RUNJ840121L25",
+        "banco": "BANCOPPEL",
+        "banco_codigo": "137"
+      },
+      "monto_mxn": 6601,
+      "monto_usd": 332.54,
+      "concepto": "LIQUIDACION DISPERSION DASP",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "137",
+      "status": "LIQUIDATED",
+      "created_at": "2026-10-17T16:32:40.788Z",
+      "submitted_at": "2026-10-17T16:32:40.788Z",
+      "idempotency_key": "idem-8pg5ij8x",
+      "retry_count": 0,
+      "liquidated_at": "2026-10-17T16:40:14.546Z",
+      "cep_url": "https://www.banxico.org.mx/cep/consulta?folio=6218523"
+    },
+    {
+      "id": "spei-5d4f53a1",
+      "clave_rastreo": "DASP261017TEST001999",
+      "beneficiario": {
+        "nombre": "OPERADORA LOGISTICA SA",
+        "clabe": "012180001234567890",
+        "banco": "BBVA MÉXICO",
+        "banco_codigo": "012"
+      },
+      "monto_mxn": 50000,
+      "monto_usd": 2518.89,
+      "concepto": "TEST DISPERSAL 01",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "012",
+      "status": "LIQUIDATED",
+      "created_at": "2026-10-17T16:08:30.564Z",
+      "submitted_at": "2026-10-17T16:08:30.564Z",
+      "idempotency_key": "idem-test-99",
+      "retry_count": 0,
+      "liquidated_at": "2026-10-17T16:40:14.546Z",
+      "cep_url": "https://www.banxico.org.mx/cep/consulta?folio=3823778"
+    },
+    {
+      "id": "spei-ord-001",
+      "clave_rastreo": "DASP261017KPE9JI534392",
+      "beneficiario": {
+        "nombre": "TESORERIA CORPORATIVA SA DE CV",
+        "clabe": "012180001234567890",
+        "rfc_curp": "TCO190820AA1",
+        "banco": "BBVA MÉXICO",
+        "banco_codigo": "012"
+      },
+      "monto_mxn": 397000,
+      "monto_usd": 20000,
+      "concepto": "DISPERSION NOMINA CEFI DASP",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "012",
+      "status": "LIQUIDATED",
+      "created_at": "2026-10-17T14:08:12.982Z",
+      "submitted_at": "2026-10-17T14:08:12.982Z",
+      "liquidated_at": "2026-10-17T14:11:12.982Z",
+      "idempotency_key": "idem-001-init",
+      "retry_count": 0,
+      "cep_url": "https://www.banxico.org.mx/cep/consulta?folio=10928374"
+    },
+    {
+      "id": "spei-ord-002",
+      "clave_rastreo": "DASP261017VZEW29569456",
+      "beneficiario": {
+        "nombre": "CARLOS MENDOZA RIOS",
+        "clabe": "002180700123456782",
+        "rfc_curp": "MERC850101991",
+        "banco": "BANAMEX",
+        "banco_codigo": "002"
+      },
+      "monto_mxn": 49625,
+      "monto_usd": 2500,
+      "concepto": "LIQUIDACION CRIPTO DASP",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "002",
+      "status": "LIQUIDATED",
+      "created_at": "2026-10-17T11:08:12.982Z",
+      "submitted_at": "2026-10-17T11:08:12.982Z",
+      "liquidated_at": "2026-10-17T11:09:24.982Z",
+      "idempotency_key": "idem-002-init",
+      "retry_count": 0,
+      "cep_url": "https://www.banxico.org.mx/cep/consulta?folio=9823411"
+    },
+    {
+      "id": "spei-ord-003",
+      "clave_rastreo": "DASP261017LE3WHL254445",
+      "beneficiario": {
+        "nombre": "DISTRIBUIDORA VALLE SAPI",
+        "clabe": "072180008877665543",
+        "rfc_curp": "DVA170315XX2",
+        "banco": "BANORTE",
+        "banco_codigo": "072"
+      },
+      "monto_mxn": 148875,
+      "monto_usd": 7500,
+      "concepto": "PAGO DE PROVEEDORES DASP",
+      "tipo_pago": 1,
+      "institucion_ordenante": "646",
+      "institucion_beneficiaria": "072",
+      "status": "REJECTED",
+      "created_at": "2026-10-17T16:06:12.982Z",
+      "submitted_at": "2026-10-17T16:06:14.982Z",
+      "idempotency_key": "idem-003-init",
+      "retry_count": 0,
+      "rejected_at": "2026-10-17T16:40:14.546Z",
+      "motivo_rechazo": "CUENTA BENEFICIARIO BLOQUEADA (DEVOLUCIÓN 05)"
+    }
+  ],
+  "idempotency_keys": {
+    "idem-test-99": {
+      "status": "SUBMITTED",
+      "order_id": "spei-5d4f53a1",
+      "created_at": "2026-10-17T16:08:30.564Z"
+    },
+    "idem-8pg5ij8x": {
+      "status": "SUBMITTED",
+      "order_id": "spei-d48249f2",
+      "created_at": "2026-10-17T16:32:40.788Z"
+    },
+    "idem-ivu9ri5x": {
+      "status": "SUBMITTED",
+      "order_id": "spei-837fa883",
+      "created_at": "2026-10-17T16:43:30.141Z"
+    },
+    "idem-6n3fpl5m": {
+      "status": "SUBMITTED",
+      "order_id": "spei-256c4f67",
+      "created_at": "2026-10-17T16:44:34.043Z"
+    },
+    "idem-e61s1lgn": {
+      "status": "SUBMITTED",
+      "order_id": "spei-1fd39f97",
+      "created_at": "2026-10-17T16:45:48.124Z"
+    },
+    "idem-pan-01": {
+      "status": "SUBMITTED",
+      "order_id": "spei-9a0049b4",
+      "created_at": "2026-10-17T17:00:56.967Z"
+    },
+    "idem-dimo-01": {
+      "status": "SUBMITTED",
+      "order_id": "spei-cba8e7eb",
+      "created_at": "2026-10-17T17:01:06.651Z"
+    },
+    "idem-pan-mask-01": {
+      "status": "SUBMITTED",
+      "order_id": "spei-09f7af52",
+      "created_at": "2026-10-17T18:33:47.412Z"
+    },
+    "DASP20261017PAN01": {
+      "status": "SUBMITTED",
+      "order_id": "spei-a1a8e310",
+      "created_at": "2026-10-17T18:37:28.895Z"
+    },
+    "DASP20261017DIMO01": {
+      "status": "SUBMITTED",
+      "order_id": "spei-fba2f239",
+      "created_at": "2026-10-17T18:37:32.658Z"
+    },
+    "auto-spei-23b98f6e-c27e-4908-bd60-ec145be7fcea-1793408868305": {
+      "status": "SUBMITTED",
+      "order_id": "spei-5ef295b9",
+      "created_at": "2026-10-31T01:07:48.305Z"
+    }
+  }
+}

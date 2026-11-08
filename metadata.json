@@ -1,0 +1,6 @@
+{
+  "name": "Crypto Compliance Hub & Fund Disperser",
+  "description": "Autonomous financial intelligence engine and DASP compliance controller under CNAD (El Salvador) with CipherTrace AML heuristics, dynamic risk scoring, and fund dispersal pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
